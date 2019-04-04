@@ -1,0 +1,31 @@
+#wall2{
+	width: 600px;
+	background-color: #aaaab9;
+	color: #ffffff;
+}
+.hidden{
+	display: none;
+}
+label{
+	width: 120px;
+	display: inline-block;
+}
+#bank-details{
+	width: 200px;
+}
+.link{
+	cursor: pointer;
+	color: #0b11f4;
+}
+.right{
+	text-align: right;
+}
+.required{
+	border: 1px solid #f90000;
+}
+#lc-submit{
+	margin-left: 210px;
+}
+#lc-due{
+	color: #0d6de3;
+}

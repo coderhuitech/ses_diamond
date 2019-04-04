@@ -1,0 +1,61 @@
+#login_form{
+		margin:0;
+		height:800px;
+		width:1000px;
+		background-image:url(img/wood1.png);
+		background-repeat: no-repeat;
+		/*background-position: center;*/
+		float:left;
+}
+#login_box{
+	margin-top:150px;
+	margin-left:350px;
+	width:300px;
+	height:120px;
+	/*background-color:#f3f3f3;
+	background-repeat: no-repeat;*/
+	background-color: rgba(0,0,100,0.4);
+	background-position: center;
+	/*opacity:0.5;*/
+}
+#login_box:hover{
+	background-color: rgba(0, 0, 100, 0.5);
+}
+#result_div{
+	margin-top:50px;
+	margin-left:350px;
+	width:300px;
+	height:120px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	display:none;
+	/*border: 1px solid #800080;*/
+}
+
+label{
+	margin-top:22px;
+	margin-left:10px;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+#password_label{
+	width:125px;
+}
+#password{
+	margin-top:10px;
+	width:197px;
+}
+#user_name{
+	width:187px;
+}
+#submit{
+	margin-left:245px;
+	margin-top:10px;
+	display:block;
+}
+.error{
+	color:red;
+}
+input[type=text]{
+	margin-top:22px;
+}

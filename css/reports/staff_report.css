@@ -1,0 +1,193 @@
+#left-div{
+	width: 150px;
+	float: left;
+}
+#right-div{
+	width: 500px;
+	float: left;
+}
+
+.link{
+	color: #0b0bf4;
+	cursor: pointer;
+}
+#result-div{
+	background-color: #fffbfe;
+	color: #090000;
+	width: 900px;
+}
+.gold-due{
+	width : 100px;
+	text-align: right;
+}
+.slno{
+	width: 50px;
+}
+.id{
+	width: 50px;
+}
+.name{
+	width: 300px;
+}
+.even{
+	background-color: #e8e9ec;
+}
+.lc-due{
+	width : 100px;
+	text-align: right;
+}
+.negetive{
+	color: #d70000;
+}
+#customer thead tr{
+	border-bottom: 1px solid;
+}
+#customer tfoot tr{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+body {
+    background: #dfdfdf;
+    color: #666;
+    font: 14px/24px sans-serif;
+}
+
+
+
+
+
+.pagination {
+    background: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#pagination-div .selected{
+	
+}
+.page {
+    display: inline-block;
+    padding: 0px 9px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e9e9e9;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+    font-size: .875em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717171;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+}
+
+.page:hover, .page.gradient:hover {
+    background: #fefefe;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#f0f0f0));
+    background: -moz-linear-gradient(0% 0% 270deg,#FEFEFE, #f0f0f0);
+}
+
+#pagination-div .selected{
+	background: #d8d8d8;
+}
+
+.emp-name{
+	width: 200px;
+}
+.emp-balance{
+	width: 150px;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+#staff-cash-balance-table thead tr{
+	border-bottom: 1px solid black;
+}
+#staff-cash-balance-table tfoot tr{
+	border-top: 1px solid black;
+}
+#staff-cash-balance-table > tbody:nth-child(3) > tr > td:nth-child(1){
+	border-right: 1px solid black;
+}
+
+#staff-daily-lc-receipt-div thead tr{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#staff-daily-lc-receipt-div  tr  td{
+	border-right: 1px solid #e7e2e7;
+}
+#staff-daily-lc-receipt-div .sl{
+	width: 25px;
+}
+#staff-daily-lc-receipt-div .date{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100px;
+}
+#staff-daily-lc-receipt-div .lc-receipt-no{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#staff-daily-lc-receipt-div.cust-name{
+	width: 150px;
+}
+
+#staff-daily-lc-receipt-div .amount{
+	width: 100px;
+}
+#staff-daily-lc-receipt-div .emp-name{
+	width: 100px;
+}
+
+
+#gold-receipt-table thead tr{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#gold-receipt-table  tr  td{
+	border-right: 1px solid #e7e2e7;
+}
+#gold-receipt-table .right{
+	text-align: right;
+}
+#gold-receipt-table .left{
+	text-align: left;
+}
+#gold-receipt-table .center{
+	text-align: center;
+}
+
+#gold-receipt-table .gold_balance{
+	width: 100px;
+}
+#gold-receipt-table .lc_balance{
+	width: 100px;
+}
+#gold-receipt-table .date{
+	width: 120px;
+}
+#gold-receipt-table .order{
+	width: 130px;
+}
+#gold-receipt-table .cust-name{
+	width: 170px;
+}
+#gold-receipt-table .gold-value{
+	width: 75px;
+}
+#gold-receipt-table tfoot tr{
+	border-top: 1px solid black;
+}
+.date{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 120px;
+}
+#rm-withdrawn-by-employee .material{
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 120px;
+}

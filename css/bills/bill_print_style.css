@@ -1,0 +1,140 @@
+@charset "utf-8";
+page{
+	size:landscape;
+}
+body { 
+/*	size: portrait 30cm;	 */
+	height: 8.26in;
+	width: 11.69in;
+	margin: auto;
+}
+
+#bill_container {
+	border: none;
+	height: 8.26in;
+	width: 11in;
+	margin-top: 10px;	
+}
+
+.bill_master,.bill_details{
+	padding-left: 65px;
+	padding-right:50px;
+}
+.
+
+.right_aligned_text{
+	text-align:right;
+}
+
+.bill_details table{
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border: 1px solid black;
+}
+
+
+/*#bill table td:nth-child(3),#bill table td:nth-child(4),#bill table td:nth-child(5) {
+	text-align:right;
+}*/
+.bill_details table,.bill_details th,.bill_details td{
+	border: .01px solid #999;
+}
+
+.bill_master table,.bill_master th,.bill_master td{
+	padding:0em;
+}
+#final_table td{
+	padding:0em;
+}
+.numeric {
+	text-align:right;
+}
+.total{
+	text-align:center;
+	font-weight:bold;
+}
+.bill_master table td.column1{
+	width:950px;
+}
+.bill_master table td.column2{
+	width:150px;
+}
+.bill_master table td.column3{
+	width:150px;
+}
+.bill_master table td.column4{
+	width:200px;
+}
+#bill_text{
+	font-style: normal;
+	color: #FFF;
+	text-align: center;
+	background-color: #000;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	line-height: 14px;
+}
+div{
+	margin: 0;
+    padding: 0em;
+}
+#bill_heading h1{
+	font-size:36px;
+	text-align:center;
+	margin: 0;
+    padding: 0em;
+
+}
+#bill_heading h5{
+	font-size:13px;
+	text-align:center;
+	margin: 0;
+    padding: 0em;
+
+}
+#bill_author_signature h5{
+	text-align:right;
+	margin-right:50px;
+	margin-bottom:-0.5em;
+	}
+#bill_author_signature h6{
+	font-size:12px;
+	text-align:right;
+	margin-top:1em;
+	}
+#bill_author_signature h1{
+	font-size:12px;
+	text-align:right;
+	padding-right:85px;
+	margin-top:-1.5em;
+	}
+#bill_author_signature h4{
+	font-style: italic;
+	text-align: center;
+	}
+	
+.table4_col1{
+	width:300px;
+}
+.table4_col2{
+	width:400px;
+}
+.table4_col3{
+	width:500px;
+	text-align:center;
+}
+#page_break{
+	width: 8.26in;
+	text-align: center;
+	page-break-after:always;
+}
+.noprint{
+	display: none;
+}

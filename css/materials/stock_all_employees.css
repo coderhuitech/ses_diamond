@@ -1,0 +1,38 @@
+#stock_at_all_employee > tbody > tr{
+	border-bottom:1px solid #9eb0d6;
+}
+#stock_at_all_employee > tbody > tr > td{
+	border-right: 1px solid #9eb0d6;
+}
+#stock_at_all_employee > tbody > tr > td:not(:first-child){
+	text-align: right;
+}
+#stock_at_all_employee > thead > tr > th{
+	text-align: center;
+	border-right: 1px solid #9eb0d6;
+}
+#stock_at_all_employee > tbody > tr:last-child{
+	background-color: #5679a9;
+	color: #ffffff;
+}
+#stock_at_all_employee > thead:nth-child(2) > tr{
+	background-color: #dcd9f4;
+	border-top: 1px solid #9eb0d6;
+}
+.material-table-div{
+	border:1px solid #d8a316;
+	border-radius:4px;
+	width: auto;
+}
+#stock_at_all_employee  > tbody > tr:nth-child(even):not(:last-child){
+	background-color: #ecfcfd;
+}
+#stock_at_all_employee > tbody > tr > td:first-child{
+	background-color: #5679a9;
+	color: #ffffff;
+}
+#stock_at_all_employee{
+	/*margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;*/
+}

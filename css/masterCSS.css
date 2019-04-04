@@ -1,0 +1,46 @@
+@media print{
+    	.non-printable { display: none; }
+    	.printable { display: block; }
+}
+#container {
+	background-color: #FFF;
+	width: 1000px;
+	height: 875px;
+	margin: 0 auto;
+	text-align: left;
+}
+#header {
+	height: 42px;
+	width: 1000px;
+	/*background-image: url(../img/header_Background1.jpg);
+	background-repeat: repeat-y;*/
+}
+#container #contents {
+	width: 1000px;
+	min-height: 875px;
+	background-color:#CCC;	
+/*	background-image: url(../img/background1.jpg);
+	background-repeat: repeat-y;*/
+	overflow: hidden;
+}
+
+#container #footer {
+	width: 1000px;
+	min-height: 30px;
+	color: #CCC;
+	background-color: #000;
+	text-align:center;
+}
+
+#working_area {
+	width: 1000px;
+	float: left;
+	background-color: #CCC;
+}
+.error{
+	color: #c80000;
+}
+
+
+
+

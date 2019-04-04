@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*page{
+	size:landscape;
+}*/
+body { 
+/*	size: portrait 30cm;	 */
+	width: 70em;
+	margin: auto;
+	/*border: 1px solid;*/
+}
+
+h2 {
+   text-transform:uppercase;
+   text-align:center;
+   margin: 0px;
+   font-size: 40px;
+}
+h3 {
+   margin: 0px;
+   text-align:center;
+}
+h4 {
+   text-align:center;
+   margin: 0px;
+   font-size: 20px;
+   color: #ffffff;
+   background-color:#000000; 
+}
+table td, 
+table th{
+padding: 0; /* 'cellpadding' equivalent */
+}
+#table1 .column1{
+	width: 400px;
+}
+#table1 .column2{
+	width: 900px;
+}
+#table1 .column3{
+	width: 150px;
+	font-weight: bold;
+}
+#table1 .column4{
+	width: 300px;
+}
+#cust_name{
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+#table2 thead th{
+	border-bottom: 1px solid #060000;
+	border-top: 1px solid #060000;
+	border-left: 1px solid #060000;
+}
+#table2 .sl{
+	width: 75px;
+}
+#table2 .right{
+	text-align: right;
+	padding-right: 5px;
+}
+#table2 .center{
+	text-align: center;
+}
+#table2 .job_id{
+	width: 100px;
+}
+#table2 .job_id{
+	width: 100px;
+}
+#table2 .model{
+	width: 100px;
+	padding-left: 3px;
+}#table2 .size{
+	width: 80px;
+	padding-left: 3px;
+	text-align: center;
+}
+#table2 .gross{
+	width: 80px;
+	padding-left: 3px;
+}
+#table2 .total_gold{
+	width: 100px;
+	padding-left: 3px;
+}
+#table2 .fine_gold{
+	width: 100px;
+	padding-right: 5px;
+}
+#table2 .gold_quality{
+	width: 150px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#table2 .qty{
+	width: 100px;
+	padding-right: 5px;
+}
+#table2 .lc{
+	width: 150px;
+	padding-right: 5px;
+}
+.organisation_name{
+	font-family: "Andalus";
+	font-size: 42px;
+	font-style: bold;
+	text-align: center;
+}
+
+#table2 table tfoot tr th{
+	border-top:1px solid #0d0000;
+}
+th.lc:nth-child(9){
+	border-right:1px solid #0d0000;
+}
+#declaration{
+	margin-top: 20px;
+}
+#declaration .column1{
+	width: 300px;
+	text-align: center;
+}
+
+#declaration .column2{
+	width: 500px;
+}
+#declaration .column3{
+	width: 400px;
+	text-align: center;
+	font-size: 12px;
+}
+#due-table{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#due-table .column1{
+	width: 200px;
+}
+#due-table .column2{
+	width: 200px;
+}
+
+#due-table  tbody tr td{
+	
+	border-top: 1px solid #060000;
+	
+}
+#mailing-name{
+	width: 350;
+	height: 50px;
+	font-size: 48px;
+	text-align: center;
+	border: #ffffff;
+	font-weight: bold;
+	font-family: "Times New Roman";
+}
+#bill-footer{
+	width: 450;
+	height: 50px;
+	font-size: 15px;
+	text-align: left;
+	border: #ffffff;
+}

@@ -1,0 +1,7 @@
+
+		<div id="table_container1" class="table_container" style='overflow-x:scroll;overflow-y:hidden;width:950px'>
+			<input type="button" value="Toggle" id="toggle"/>
+			<?php	echo $table1;?>
+		</div>
+
+

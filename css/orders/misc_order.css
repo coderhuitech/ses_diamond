@@ -1,0 +1,153 @@
+ul{
+	list-style-type: none;
+	
+}
+#left-div li{
+	width: 200px;
+	display: block;
+	border: 1px solid #c10000;
+	margin-bottom: 3px;
+	background-color: #bf0000;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 5px;
+	padding-left: 3px;
+	box-shadow: 10px 10px 5px #888888;
+	transition: background-color 1s linear;
+}
+#left-div li:hover{
+	width: 200px;
+	display: block;
+	border: 1px solid #c10000;
+	margin-bottom: 3px;
+	background-color: #ce8420;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-left: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	cursor: pointer;
+}
+#left-div{
+	width: 250px;
+	float: left;
+
+}
+#right-div{
+	width: 650px;
+	float: left;
+	border-right: 1px solid #c8c6c7;
+}
+#message-panel{
+	width: 250px;
+	float: left;
+	padding-left: 3px;
+	padding-top: 3px;
+	border-right: 1px solid #c8c6c7;
+}
+
+#result-div{
+	background-color: #fffff;
+	color: #090000;
+	width: 900px;
+}
+label{
+	display: inline-block;
+	width: 150px;
+}
+#submit-new-relation{
+	margin-left: 250px;
+}
+#student-id,#course-id,#session-id{
+	background-color: #cace9b;
+	color: #03035f;
+	border: none;
+	margin-right: 5px;
+	width: 100px;
+	padding-left: 3px;
+}
+#student-name,#course-name,#session-name{
+	width: 200px;
+	padding-left: 3px;
+}
+
+#course-for-students-div-i label{
+	width: 100px;
+}
+#course-for-students-div-i div{
+	height:20px;
+   /* border:blue 1px solid;*/
+    margin:0px;outline:none;
+}
+#deleteable_orders_table tbody tr{
+	border-top: 1px solid #acc6ec;
+}
+#deleteable_orders_table tbody .odd{
+	background-color: #e8e7e9;
+}
+#deleteable_orders_table tbody tr:hover{
+	background-color: #ecf598;
+}
+#deleteable_orders_table .cancel-order:hover{
+	height: 40px;
+}
+
+.slno{
+	width: 30px;
+}
+.order_id{
+	width: 150px;
+}
+.date{
+	width: 150px;
+}
+.cancel:hover{
+	height: 30px;
+}
+#deleteable_order_details_table tbody tr{
+	border-top: 1px solid #acc6ec;
+}
+#deleteable_order_details_table tbody .odd{
+	background-color: #e8e7e9;
+}
+#deleteable_order_details_table tbody tr:hover{
+	background-color: #ecf598;
+}
+.product_code{
+	width: 60px;
+}
+.prd_size{
+	width: 60px;
+}
+.gold{
+	text-align: right;
+	width: 80px;
+}
+.action{
+	width: 70px;
+	text-align: center;
+}
+.selected{
+	background-color: #9aa910;
+}
+.deleted{
+	background-color: #b30606;
+}
+.right{
+	text-align: right;
+}
+tbody .odd{
+	background-color: #e8e7e9;
+}
+#table-by-delivery-date  tr td{
+	padding-left: 3px;
+	padding-right: 3px;
+	border-left: 1px solid #cccccc;
+}
+#table-by-delivery-date  tr{
+	padding-left: 3px;
+	padding-right: 3px;
+	border-top: 1px solid #cccccc;
+}
+
+

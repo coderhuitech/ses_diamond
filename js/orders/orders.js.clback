@@ -1,0 +1,16 @@
+$(function(){
+		$( "#customer-id").autocomplete({
+			//source: models,			//will get the data from this Array
+			source: base_url+"/receipt_controller/all_customers_for_list",			//will get the data from this Array
+			focus: function(event, ui) {
+            	$("#customer-id").val(ui.item.label); //product field will show the product list only
+            	return false;
+        	},
+    		select: function (event, ui) {
+        		$("#customer-id").val(ui.item.label); //product will show the productID
+				$("#customer-id").val(ui.item.value); // box number will show the value
+				return false;
+			}
+		});
+*/
+});

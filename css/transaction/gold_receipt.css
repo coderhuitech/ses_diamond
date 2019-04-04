@@ -1,0 +1,72 @@
+#outer-div{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#lc{
+	text-align:right;
+}
+#gold{
+	text-align:right;
+}
+
+#cust-balance{
+	padding: 4px 4px 4px 4px;
+	width: 950px;
+	min-height: 50px;
+	background-color: rgba(204,254,220,.2);
+}
+label{
+	width :90px;
+	display: inline-block;
+}
+#gold-percent{
+	width: 30px;
+}
+#gold-in_cash-div{
+	margin-left: 330px;
+	background-color: rgba(204,254,220,.2);
+}
+#bank-details{
+	width: 300px;
+}
+#gold-in_cash-div input[type=text]{
+	width: 70px;
+}
+#gold-div{
+	width: 950px;
+	background-color: #7813d2;
+	padding: 4px 4px 4px 4px;
+	color: white
+}
+#lc-div{
+	width: 950px;
+	background-color: #d1a8f7;
+	padding: 4px 4px 4px 4px;
+	color: white
+}
+.hidden{
+	display: none;
+}
+.number{
+	text-align: right;
+}
+
+#gold-receipt-table .right{
+	text-align: right;
+}
+#gold-receipt-table .left{
+	text-align: left;
+}
+#gold-receipt-table .center{
+	text-align: center;
+}
+
+#gold-receipt-table .gold_balance{
+	width: 100px;
+}
+#gold-receipt-table .lc_balance{
+	width: 100px;
+}
+#gold-receipt-table .column1{
+	width: 120px;
+}

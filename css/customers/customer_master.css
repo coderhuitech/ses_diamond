@@ -1,0 +1,55 @@
+#left-div{
+	width: 150px;
+	float: left;
+}
+#right-div{
+	width: 500px;
+	float: left;
+}
+
+.link{
+	color: #0b0bf4;
+	cursor: pointer;
+}
+#result-div{
+	background-color: #fffbfe;
+	color: #090000;
+	width: 900px;
+}
+
+#new-customer label{
+	width: 100px;
+	display: inline-block;
+	margin-left: 5px;
+}
+#new-customer input[type="text"]{
+	width: 250px;
+}
+#new-customer textarea{
+	width: 250px;
+}
+#new-customer{
+	width: 400px;
+	border: 1px solid #e7ecef;
+	margin-top: 5px;
+}
+#customer-submit{
+	margin-top: 5px;
+	margin-bottom: 3px;
+	margin-left: 300px;
+	background-color: #285a07;
+	color: #ffffff;
+}
+#security1{
+	width: 75px;
+}
+/*Customer Limit*/
+
+#customer-limit label{
+	width: 100px;
+	display: inline-block;
+	margin-left: 5px;
+}
+#customer-limit input[type="text"]{
+	width: 250px;
+}

@@ -1,0 +1,5 @@
+How to add unique key to table without deleting it.
+	alter table employees add unique key Uni_key_emp_code(emp_code);
+
+How to drop unique key without deleting table
+	alter table employees drop index uni_key_emp_code;

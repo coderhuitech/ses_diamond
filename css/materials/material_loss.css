@@ -1,0 +1,43 @@
+#inner-div-1{
+	width: 1000px;
+	color: #ffffff;
+	background-color: #642ba4;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#left-div{
+	margin-left: 10px;
+	color: #ffffff;
+	background-color: #642ba4;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 500px;
+	height:300px;
+	float: left;
+}
+#right-div{
+	margin-left: 10px;
+	color: #ffffff;
+	background-color: #2877a6;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 400px;
+	height:300px;
+	float: left;
+}
+#inner-div-1 label{
+	width: 125px;
+	display: inline-block;
+}
+#employee-id{
+	width: 200px;
+}
+#submit{
+	margin-left: 350px;
+}
+.hidden{
+	display: none;
+}
+.required{
+	border: 1px solid #f90000;
+}

@@ -1,0 +1,36 @@
+#job-div{
+	
+}
+#jobs-ready-for-bill-div{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 300px;
+	border: 1px solid #c0001;
+	float: left;
+	background-color: #4b38b8;
+	color: #fff9f9;
+}
+#jobs-ready-for-bill-div span{
+  
+  width: 90px;
+  padding-left: 20px;
+}
+#jobs-not-ready-for-bill-div{
+	margin-left: 5px;
+	margin-top: 5px;
+   width: 300px;
+	border: 1px solid #00000;
+	float: left;
+	background-color: #ed9b03;
+	color: #c80000;
+}
+#send-job-for-bill{
+	width: 100px;
+	display: inline-block;
+	background-color: #0423fb;
+	color: #fffdfd;
+	margin: auto;
+}
+.hidden_huitech{
+	display: none;
+}

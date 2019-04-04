@@ -1,0 +1,9 @@
+#outer_div{
+		margin:0;
+		height:875px;
+		width:1000px;
+/*		background-image:url(img/wood2.png);*/
+		background-repeat: repeat;
+		/*background-position: center;*/
+		float:left;
+}

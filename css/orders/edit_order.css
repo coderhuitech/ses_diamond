@@ -1,0 +1,179 @@
+#order_no_div{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#outer-div{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.save{
+	display: none;		
+	cursor: pointer;
+}
+.edit{
+	display: inline;
+	cursor: pointer;
+}
+.print{
+	margin-left: 5px;
+}
+#customer-div{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#order-date{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+label{
+	width: 120px;
+	display: inline-block;
+}
+#model-no{
+	width: 60px;
+}
+#model-size{
+	width: 60px;
+	margin-left: 5px;
+}
+#appx-gold{
+	width: 50px;
+	text-align: right;
+	margin-left: 5px;
+}
+#qty{
+	width: 35px;
+	text-align: right;
+	margin-left: 5px;
+}
+#description{
+	width: 250px;
+	margin-left: 5px;
+}
+#customer-id{
+	width: 65px;
+}
+#order_date{
+	width: 80px;
+}
+#delivery_date{
+	width: 80px;
+}
+#result-div{
+	width: 500px;
+	margin-left: 40px;
+}
+#user-key-div{
+	display: none;
+}
+.remove{
+	cursor: pointer;
+	
+}
+.hidden{
+	display: none;
+}
+#customer-div{
+	background-color: #5a6aa0;
+	width: 519px;
+	padding: 5px;
+	color: #ffffff;
+}
+#order-date-div{
+	margin-left: 300px;
+	background-color: #5a6aa0;
+	width: 223px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+#agent-div{
+	display: none;
+}
+#order-master-div{
+  margin-left: auto ;
+  margin-right: auto ;
+}
+#order-details-div{
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.cancel{
+	display: none;
+	cursor: pointer;
+}
+#order_details input[id*="Editable"]{
+	display: none;
+	background-color: #e7e2ef;
+	color: #020202;
+}
+#order_details input[id*="model"]{
+	width: 70px;
+}
+#order_details span{
+	display: inline-block;
+}
+#order-master-div .column1{
+	width: 150px;
+}
+#order-master-div .column2{
+	width: 150px;
+}
+#order-master-div .column3{
+	width: 150px;
+}
+#order-master-div .column4{
+	width: 200px;
+}
+#order-master-div .column5{
+	width: 150px;
+}
+
+#order-master-div table caption{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#order-details-div{
+	margin-top: 10px;
+}
+
+#order-details-div .column1{
+	width: 50px;
+}
+#order-details-div .column2{
+	width: 100px;
+}
+#order-details-div .column3{
+	padding: 3px 18px 3px 10px;
+	width: 75px;
+}
+#order-details-div .column4{
+	padding: 3px 18px 3px 10px;
+	width: 50px;
+	text-align: right;
+}
+#order-details-div .column5{
+	padding: 3px 18px 3px 10px;
+	width: 100px;
+	text-align: right;
+}
+#order-details-div .column6{
+	padding: 3px 18px 3px 10px;
+	width: 150px;
+	text-align: right;
+}
+
+#order-details-div table tfoot th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+#order-details-div table thead th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}

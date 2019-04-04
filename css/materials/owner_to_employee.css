@@ -1,0 +1,33 @@
+#outer-div{
+	margin-left: 20px;
+}
+label{
+	width: 150px;
+	display: inline-block;
+}
+.error{
+	color: #bd0000;
+}
+.noerror{
+	color: #418d80;
+}
+#container2{
+	background-color: #7d65d1;
+	height: 120px;
+	width: 500px;
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #ffffff;
+	margin-top: 5px;
+}
+#comment{
+	width: 510px;
+}
+#refresh-closing-stock{
+	margin-left: 100px;
+}
+#submit{
+	margin-left: 450px;
+	background-color: #135928;
+	color: #ffffff;
+}

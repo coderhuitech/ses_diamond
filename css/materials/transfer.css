@@ -1,0 +1,21 @@
+label{
+	display: inline-block;
+	width: 150px;
+}
+#submit{
+	margin-left: 350px;
+}
+.link{
+	color: #023afd;
+	cursor: pointer;
+}
+
+
+.required{
+	border:1px solid red;
+	border-radius:5px;
+	text-align: right;
+}
+#material-qty{
+	text-align: right;
+}

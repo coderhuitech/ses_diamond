@@ -1,0 +1,12 @@
+#outer-div{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#result-div{
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #986798;
+	color: #ffffff;
+	width: 500px;
+	padding: 10px;
+}

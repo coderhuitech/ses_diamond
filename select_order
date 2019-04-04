@@ -1,0 +1,8 @@
+2016-06-08 11:09:25,y4CPsjHTaA,select * from order_master 
+		inner join customer_master
+		on order_master.cust_id = customer_master.cust_id
+		where  date(order_date) between '2016-06-08' and '2016-06-08',order_model,2212
+2016-06-08 11:10:29,pEXg7AFVot,select * from order_master 
+		inner join customer_master
+		on order_master.cust_id = customer_master.cust_id
+		where  date(order_date) between '2016-06-08' and '2016-06-08',order_model,2212

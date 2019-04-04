@@ -1,0 +1,53 @@
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: 326pt;
+		height: 952pt;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+#outer-div{
+
+}
+#gap-div{
+	height: 150pt;
+}
+#model-image{
+	margin: auto;
+}
+.job-table .column1{
+	width: 58pt;
+}
+.job-table .column2{
+	width: 58pt;
+}
+.job-table .column3{
+	width: 58pt;
+}
+.job-table .column4{
+	width: 45pt;
+}
+.job-table input[type=text]{
+	
+}
+.job-table td{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.job-table .column1{
+	border-left: 1px solid #000000;
+}
+.job-table .column3{
+	border-left: 1px solid #000000;
+}
+.job-table .column4{
+	border-right: 1px solid #000000;
+}

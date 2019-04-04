@@ -1,0 +1,114 @@
+#outer-div{
+	margin-left: 7px;
+	margin-top: 10px;
+	height: 600px;
+	border-bottom: 1px solid #051016;
+	overflow: scroll;
+}
+#left-div{
+	float: left;
+	border: 1px solid #ffffff;
+	background-color: #b7d8ee;
+	width: 230px;
+}
+#mid-div{
+	float: left;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	
+}
+#job-details-div{
+	width: 216pt;
+	height: 380pt;
+	font-size: 14px;
+}
+#right-div{
+	float: left;
+	border: 1px solid #ffffff;
+	background-color: #ac84f0;
+	color: #ffffff;
+	width: 400px;
+	margin-left: 20px;
+	overflow: scroll;
+}
+#order-no-div{
+	margin-left: 10px;
+}
+#send-gold{
+	width: 50px;
+}
+#order-no-div span{
+	cursor: pointer;
+	color: #2000d7;
+}
+.hidden{
+	display: none;
+}
+table .jobed td{
+	background-color: #fcfc03;
+	border-bottom: 1px solid #000000;
+}
+table .fresh td{
+	background-color: #72c783;
+	border-bottom: 1px solid #000000;
+}
+.selected{
+	background-color: #f20000;
+	border-bottom: 2px solid #0b0b0b;
+	color: #ffffff;
+}
+table.data-table thead th {
+	padding: 3px 18px 3px 10px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.job-table .column1{
+	width: 58pt;
+}
+.job-table .column2{
+	width: 58pt;
+}
+.job-table .column3{
+	width: 58pt;
+}
+.job-table .column4{
+	width: 45pt;
+}
+.job-table input[type=text]{
+	width: 50px;
+	background-color: #f5f569;
+}
+.job-table td{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.job-table .column1{
+	border-left: 1px solid #000000;
+}
+.job-table .column3{
+	border-left: 1px solid #000000;
+}
+.job-table .column4{
+	border-right: 1px solid #000000;
+}
+.hidden{
+	display: none;
+}
+.hidden:hover{
+	display: inline;
+}
+.required{
+	border: 1px solid #f90000;
+}
+#pan-id{
+	background-color: #fdf33e;
+}
+.highlight{
+	background-color: #debd21;
+}

@@ -1,0 +1,40 @@
+#left-div{
+	width: 150px;
+	float: left;
+}
+#right-div{
+	width: 500px;
+	float: left;
+}
+
+.link{
+	color: #0b0bf4;
+	cursor: pointer;
+}
+#result-div{
+	background-color: #fffbfe;
+	color: #090000;
+	width: 900px;
+}
+
+body {
+    background: #dfdfdf;
+    color: #666;
+    font: 14px/24px sans-serif;
+}
+
+#material-trnasformation label{
+	width: 150px;
+	display: inline-block;
+}
+#transform{
+	margin-left: 320px;
+}
+#stock-reference-entry-div label{
+	width: 100px;
+	display: inline-block;
+}
+#stock-reference-entry-div #stock-reference-save{
+	margin-left: 200px;
+}
+

@@ -1,0 +1,104 @@
+#left-div{
+	width: 150px;
+	float: left;
+}
+#right-div{
+	width: 500px;
+	float: left;
+}
+
+.link{
+	color: #0b0bf4;
+	cursor: pointer;
+}
+#result-div{
+	background-color: #fffbfe;
+	color: #090000;
+	width: 900px;
+}
+.gold-due{
+	width : 100px;
+	text-align: right;
+}
+.slno{
+	width: 50px;
+}
+.id{
+	width: 50px;
+}
+.name{
+	width: 300px;
+}
+.even{
+	background-color: #e8e9ec;
+}
+.lc-due{
+	width : 100px;
+	text-align: right;
+}
+.negetive{
+	color: #d70000;
+}
+
+body {
+    background: #dfdfdf;
+    color: #666;
+    font: 14px/24px sans-serif;
+}
+
+
+.emp-name{
+	width: 200px;
+}
+.emp-balance{
+	width: 150px;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.printer{
+	cursor: pointer;
+	margin-left: 300px;
+	
+}
+.tag{
+	width: 100px;
+}
+.description{
+	width: 100px;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+
+
+

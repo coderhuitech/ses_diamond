@@ -1,0 +1,29 @@
+#left-div{
+	width: 150px;
+	float: left;
+}
+#right-div{
+	width: 500px;
+	float: left;
+}
+
+.link{
+	color: #0b0bf4;
+	cursor: pointer;
+}
+#result-div{
+	background-color: #fffbfe;
+	color: #090000;
+	width: 900px;
+}
+
+#product-add-edit label{
+	width: 150px;
+	display: inline-block;
+}
+.error{
+	background-color: #ffdfdf;
+}
+#price-code{
+	width: 20px;
+} 

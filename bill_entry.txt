@@ -1,0 +1,44 @@
+<div id="outer-div">
+	<div id="left-div">
+	<!--<div id="vcno-div">
+			<label for="vcno">VC No</label>	
+			<input type="text" name="vcno" id="vcno" placeholder="VC NO"/>
+	</div>-->
+		<div id="table-maste">
+			<table border="0" width="30%">
+				<tr>
+					<td colspan="3"><input type="text" name="vcno" id="vcno" placeholder="VC NO"/></td>
+					<!--td>Bill No</td>
+					<td>5454544</td>-->
+				</tr>	
+				<tr>
+					<td><input type="text" name="cust" id="cust" placeholder="VC NO"/></td>
+					<td>Bill No</td>
+					<td><input type="text" name="billno" id="billno" placeholder="Bill No"/></td>
+				</tr>	
+				<tr>
+					<td><input type="text" name="address" id="address" placeholder="Address"/></td>
+					<td>Bill Date</td>
+					<td><input type="date" name="date" id="date" placeholder="Date"/></td>
+				</tr>	
+				<tr>
+					<td><input type="text" name="email" id="email" placeholder="E-Mail"/></td>
+					<td>Priod</td>
+					<td><input type="text" name="month" id="month" class="selectBox" placeholder="Month"/>
+					
+					<input type="text" name="year" id="year" class="selectBox" placeholder="year"/></td>
+				</tr>	
+				<tr>
+					<td> <input type="text" name="plan_name" id="plan_name" placeholder="Plan Name"/></td>
+					<td>Plan Amount</td>
+					<td colspan="2"><input type="text" name="plan_amount" id="plan_amount" placeholder="plan amount"/></td>
+					
+				</tr>				
+			</table>
+		</div>
+	</div>
+	<div id="right-div">
+		<div id="table-div" align="left"></div>
+	</div>
+	
+</div>
